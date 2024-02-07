@@ -1,7 +1,54 @@
-body{
-    background-color: #1e2d3d;
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
-body p{
+
+body {
+    background-color: #1e2d3d;
+    font-family: Arial, sans-serif;
+}
+
+.header-text {
     color: #607B96;
-    white-space: nowrap;
+    font-family: Arial, sans-serif;
+}
+
+#text-main-1 {
+    color: #E5E9F0;
+    font-family: "Fira Code", monospace;
+    font-size: 18px;
+}
+#text-main-2 {
+    color: #E5E9F0;
+    font-family: "Fira Code", monospace;
+    font-size: 62px;
+}
+#text-main-3 {
+    color: #4D5BCE;
+    font-family: "Fira Code", monospace;
+    font-size: 32px;
+}
+#text-main-4 {
+    color: #607B96;
+    font-family: "Fira Code", monospace;
+    font-size: 16px;
+}
+
+.github-text p{
+    color: white;
+    display: inline;
+}
+#github-text-1{
+    color: #4D5BCE;
+    font-size: 18px;
+}
+#github-text-2{
+    color: #43D9AD;
+    font-size: 18px;
+}
+#github-text-3{
+    color: #E99287;
+    font-size: 18px;
 }
